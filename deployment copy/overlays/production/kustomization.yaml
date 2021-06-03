@@ -1,0 +1,7 @@
+bases:
+  - ../../base
+
+#Only needed if different customizations to resources need to be applied
+#https://kubernetes.io/docs/tasks/manage-kubernetes-objects/kustomization/
+patchesStrategicMerge:
+  - microservice-resource.yaml
